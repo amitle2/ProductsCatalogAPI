@@ -1,0 +1,17 @@
+{
+    "development": {
+        "database": {
+            "file": "./src/database/products.json"
+        }
+    },
+    "test": {
+        "database": {
+            "file": "./src/testdatabase/products.json"
+        }
+    },
+    "production": {
+        "database": {
+            "file": "./src/proddatabase/products.json"
+        }
+    }
+}
